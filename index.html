@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Portfolio</title>
+  </head>
+  <!-- Google font " Roboto " -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+    rel="stylesheet"
+  />
+  <!-- For icon link -->
+  <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+    integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+    crossorigin="anonymous"
+    referrerpolicy="no-referrer"
+  />
+  <!-- Stylesheet link -->
+  <link rel="stylesheet" href="css/style.css" />
+  <script>
+    function toggleMenu() {
+      const navLinks = document.getElementById("navLinks");
+      navLinks.classList.toggle("show");
+    }
+  </script>
+
+  <body>
+    <!-- Navbar -->
+    <nav>
+      <div class="left">
+        <a href="#Home">
+          <img src="./images/logo.png" alt="logo" />
+          <span>My Portfolio</span>
+        </a>
+      </div>
+
+      <!-- HAMBURGER ICON -->
+      <div class="hamburger" onclick="toggleMenu()">
+        <i class="fa-solid fa-bars"></i>
+      </div>
+
+      <!-- MENU LINKS -->
+      <div class="right" id="navLinks">
+        <a href="#skills">
+          <i class="fa-solid fa-code"></i>
+          <span>Skills</span>
+        </a>
+        <a href="#projects">
+          <i class="fa-solid fa-bars-progress"></i>
+          <span>Projects</span>
+        </a>
+        <a href="#contact">
+          <i class="fa-regular fa-id-badge"></i>
+          <span>Contact</span>
+        </a>
+      </div>
+    </nav>
+    <main>
+      <!--Hero Section  -->
+      <section class="hero">
+        <div class="hero-text">
+          <h3>Welcome to my portfolio</h3>
+          <h1>Hi, I'm <span>Mohammad Seydur Rahman</span></h1>
+          <p>
+            I'm a passionate and detail-oriented Full-Stack Developer with a
+            strong foundation in modern web technologies and a keen eye for user
+            experience. With a focus on building responsive, scalable, and
+            accessible web applications.
+          </p>
+          <h3>What I Do</h3>
+          <ul>
+            <li>
+              Front-End Development with React, Next.js, Tailwind CSS, and
+              modern UI libraries.
+            </li>
+            <li>Back-End Engineering using Node.js, Express, and MongoDB.</li>
+            <li>
+              RESTful API Development and integration for dynamic applications.
+            </li>
+            <li>State Management using Redux Toolkit and Context API.</li>
+            <li>
+              Version Control & Collaboration with Git/GitHub and Agile
+              workflow.
+            </li>
+          </ul>
+          <h3>Tech Stack</h3>
+          <p>
+            Languages: JavaScript, TypeScript, HTML, CSS, Python <br />
+            Frameworks: React, Next.js, Express.js <br />
+            Tools & Libraries: Redux, Axios, Mongoose, Prisma, ShadCN UI <br />
+            Database: MongoDB, PostgreSQL <br />
+            Dev Tools: VS Code, Git, Postman, Figma, Vite, Webpack
+          </p>
+          <h3>Goals</h3>
+          <p>
+            1. Improving my TypeScript and testing skills <br />
+            2. Building full-stack MERN E-commerce Website with authentication
+          </p>
+          <h4>Let's Connect</h4>
+
+          <div class="links">
+            <a href="https://github.com/seydurrahman" target="_blank">
+              <i class="fa-brands fa-github"></i>
+              <span>GitHub</span>
+            </a>
+
+            <a href="https://www.facebook.com/mdseydur.rahman" target="_blank">
+              <i class="fa-brands fa-facebook"></i>
+              <span>Facebook</span>
+            </a>
+            <a href="https://www.linkedin.com/in/seydur-rahman" target="_blank">
+              <i class="fa-brands fa-linkedin"></i>
+              <span>LinkedIn</span>
+            </a>
+            <a href="https://x.com/MdSeydur" target="_blank">
+              <i class="fa-brands fa-twitter"></i>
+              <span>X/Twitter</span>
+            </a>
+          </div>
+        </div>
+        <div class="headshot">
+          <img src="images/hero-image.jpg" alt="" />
+        </div>
+      </section>
+      <!-- Skills section -->
+      <section class="skills">
+        <h2>Skills</h2>
+        <div class="text">
+          I have a strong foundation in front-end web development, with solid
+          skills in HTMLand CSS for responsive. I'm proficient in JavaScript,
+          including ES6+ and DOM manipulation. I work confidently with React
+          with Tailwind CSS. Additionally, I have a basic understanding of
+          Python, capable of writing simple scripts and solving logical problems
+          using core programming concepts.
+        </div>
+        <div class="cells">
+          <div class="cell">
+            <img src="images/html5.png" alt="html5" />
+            <span>HTML5</span>
+          </div>
+          <div class="cell">
+            <img src="images/css3.png" alt="css3" />
+            <span>CSS3</span>
+          </div>
+          <div class="cell">
+            <img src="images/js.png" alt="js" />
+            <span>JavaScript</span>
+          </div>
+          <div class="cell">
+            <img src="images/react+tailwind.png" alt="react+tlwnd" />
+            <span>React-Tailwind</span>
+          </div>
+          <div class="cell">
+            <img src="images/python-django.png" alt="python-django" />
+            <span>Python-Django</span>
+          </div>
+        </div>
+      </section>
+      <!-- Projects Section -->
+      <section class="project">
+        <div class="heading">
+          <h1>Projects</h1>
+          <p>
+            Here are some of my recent projects that showcase my skills and
+            experiences.
+          </p>
+        </div>
+        <div class="div">
+          <div class="pro-1">
+            <h2>Projects1</h2>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Totam
+              voluptates architecto
+            </p>
+            <a
+              href="https://github.com/seydurrahman/onepage-website-react.git"
+              target="_blank"
+            >
+              <i class="fa-brands fa-github"></i>
+              Code
+            </a>
+            <a href="https://onepage-website-react.vercel.app/" target="_blank"
+              ><i class="fa-solid fa-link"></i> Link</a
+            >
+          </div>
+          <div class="pro-2">
+            <h2>Projects2</h2>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Totam
+              voluptates architecto
+            </p>
+            <a href="">
+              <i class="fa-brands fa-github"></i>
+              Code
+            </a>
+            <a href=""><i class="fa-solid fa-link"></i> Link</a>
+          </div>
+          <div class="pro-3">
+            <h2>Projects3</h2>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Totam
+              voluptates architecto
+            </p>
+            <a href="">
+              <i class="fa-brands fa-github"></i>
+              Code
+            </a>
+            <a href=""><i class="fa-solid fa-link"></i> Link</a>
+          </div>
+        </div>
+      </section>
+      <!-- Contact section -->
+      <section class="contact">
+        <h2>Contact</h2>
+        <div class="group">
+          <div class="text">
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nesciunt,
+            mollitia modi minima officia, voluptatibus quisquam aut dignissimos
+            porro dolorem asperiores dicta tempora id enim dolor dolores!
+            Doloremque voluptas molestiae dolorem et omnis, perferendis facilis
+            aut corporis ad, delectus quam iure! Quod eos quibusdam doloribus
+            quam saepe laboriosam corrupti eaque dicta?
+          </div>
+          <form class="form">
+            <label for="name">Name</label>
+            <input
+              type="text"
+              id="name"
+              name="name"
+              placeholder="Your name"
+              required
+            />
+            <label for="name">Email</label>
+            <input
+              type="email"
+              id="email"
+              name="email"
+              placeholder="Your email"
+              required
+            />
+            <label for="message">Message</label>
+            <textarea
+              name="message"
+              id="message"
+              placeholder="Your message"
+              cols="30"
+              rows="10"
+              required
+            ></textarea>
+            <button type="submit">Send message</button>
+          </form>
+        </div>
+      </section>
+      <!-- Footer -->
+      <footer>
+        <p>&copy; 2025 all rights reserved</p>
+      </footer>
+    </main>
+  </body>
+</html>
